@@ -3,10 +3,11 @@
   "id": "alien",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Alien",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "Jheffão Lanches",
+    "DanielNCG"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -20,6 +21,9 @@
   "entrypoints": {
     "main": [
       "com.alien.Alien"
+    ],
+    "client": [
+      "com.alien.AlienClient"
     ]
   },
   "mixins": [

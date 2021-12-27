@@ -1,5 +1,6 @@
 {
   "variants": {
-    "": { "model": "mymod:block/my_block" }
+    "popped=false": { "model": "alien:block/egg_sack/neomorph_egg_sack" },
+    "popped=true": { "model": "alien:block/egg_sack/neomorph_egg_sack_popped" }
   }
 }
